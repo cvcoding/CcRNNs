@@ -1,0 +1,110 @@
+/home/Chen/miniconda3/envs/torch1.5/bin/python /home/Chen/work_env/Shandongjing/OriginalTCN/pmnist_test.py
+Namespace(batch_size=200, clip=-1, cuda=True, dropout=0.05, epochs=20, ksize=7, levels=8, log_interval=100, lr=0.002, nhid=46, optim='Adam', permute=True, seed=1111)
+224,536 total parameters.
+224,536 training parameters.
+Train Epoch: 1 [20000/60000 (33%)]	Loss: 1.032631	Steps: 79184
+Train Epoch: 1 [40000/60000 (67%)]	Loss: 0.420630	Steps: 157584
+/home/Chen/work_env/Shandongjing/OriginalTCN/pmnist_test.py:117: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  data, target = Variable(data, volatile=True), Variable(target)
+/home/Chen/miniconda3/envs/torch1.5/lib/python3.7/site-packages/torch/nn/_reduction.py:43: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+
+Test set: Average loss: 0.2878, Accuracy: 9130/10000 (91%)
+
+Train Epoch: 2 [20000/60000 (33%)]	Loss: 0.276275	Steps: 314384
+Train Epoch: 2 [40000/60000 (67%)]	Loss: 0.248196	Steps: 392784
+
+Test set: Average loss: 0.1979, Accuracy: 9394/10000 (94%)
+
+Train Epoch: 3 [20000/60000 (33%)]	Loss: 0.195838	Steps: 549584
+Train Epoch: 3 [40000/60000 (67%)]	Loss: 0.191575	Steps: 627984
+
+Test set: Average loss: 0.1671, Accuracy: 9528/10000 (95%)
+
+Train Epoch: 4 [20000/60000 (33%)]	Loss: 0.160704	Steps: 784784
+Train Epoch: 4 [40000/60000 (67%)]	Loss: 0.155186	Steps: 863184
+
+Test set: Average loss: 0.1303, Accuracy: 9614/10000 (96%)
+
+Train Epoch: 5 [20000/60000 (33%)]	Loss: 0.130898	Steps: 1019984
+Train Epoch: 5 [40000/60000 (67%)]	Loss: 0.135526	Steps: 1098384
+
+Test set: Average loss: 0.1306, Accuracy: 9598/10000 (96%)
+
+Train Epoch: 6 [20000/60000 (33%)]	Loss: 0.117287	Steps: 1255184
+Train Epoch: 6 [40000/60000 (67%)]	Loss: 0.121452	Steps: 1333584
+
+Test set: Average loss: 0.1245, Accuracy: 9641/10000 (96%)
+
+Train Epoch: 7 [20000/60000 (33%)]	Loss: 0.104445	Steps: 1490384
+Train Epoch: 7 [40000/60000 (67%)]	Loss: 0.106138	Steps: 1568784
+
+Test set: Average loss: 0.1116, Accuracy: 9657/10000 (97%)
+
+Train Epoch: 8 [20000/60000 (33%)]	Loss: 0.090936	Steps: 1725584
+Train Epoch: 8 [40000/60000 (67%)]	Loss: 0.095838	Steps: 1803984
+
+Test set: Average loss: 0.1144, Accuracy: 9668/10000 (97%)
+
+Train Epoch: 9 [20000/60000 (33%)]	Loss: 0.081976	Steps: 1960784
+Train Epoch: 9 [40000/60000 (67%)]	Loss: 0.088925	Steps: 2039184
+
+Test set: Average loss: 0.1085, Accuracy: 9671/10000 (97%)
+
+Train Epoch: 10 [20000/60000 (33%)]	Loss: 0.073009	Steps: 2195984
+Train Epoch: 10 [40000/60000 (67%)]	Loss: 0.081050	Steps: 2274384
+
+Test set: Average loss: 0.1153, Accuracy: 9674/10000 (97%)
+
+Train Epoch: 11 [20000/60000 (33%)]	Loss: 0.063552	Steps: 2431184
+Train Epoch: 11 [40000/60000 (67%)]	Loss: 0.054145	Steps: 2509584
+
+Test set: Average loss: 0.0798, Accuracy: 9760/10000 (98%)
+
+Train Epoch: 12 [20000/60000 (33%)]	Loss: 0.044545	Steps: 2666384
+Train Epoch: 12 [40000/60000 (67%)]	Loss: 0.045839	Steps: 2744784
+
+Test set: Average loss: 0.0780, Accuracy: 9763/10000 (98%)
+
+Train Epoch: 13 [20000/60000 (33%)]	Loss: 0.043211	Steps: 2901584
+Train Epoch: 13 [40000/60000 (67%)]	Loss: 0.041445	Steps: 2979984
+
+Test set: Average loss: 0.0774, Accuracy: 9769/10000 (98%)
+
+Train Epoch: 14 [20000/60000 (33%)]	Loss: 0.037608	Steps: 3136784
+Train Epoch: 14 [40000/60000 (67%)]	Loss: 0.038987	Steps: 3215184
+
+Test set: Average loss: 0.0783, Accuracy: 9769/10000 (98%)
+
+Train Epoch: 15 [20000/60000 (33%)]	Loss: 0.036588	Steps: 3371984
+Train Epoch: 15 [40000/60000 (67%)]	Loss: 0.035308	Steps: 3450384
+
+Test set: Average loss: 0.0785, Accuracy: 9772/10000 (98%)
+
+Train Epoch: 16 [20000/60000 (33%)]	Loss: 0.032775	Steps: 3607184
+Train Epoch: 16 [40000/60000 (67%)]	Loss: 0.034061	Steps: 3685584
+
+Test set: Average loss: 0.0797, Accuracy: 9769/10000 (98%)
+
+Train Epoch: 17 [20000/60000 (33%)]	Loss: 0.033265	Steps: 3842384
+Train Epoch: 17 [40000/60000 (67%)]	Loss: 0.032701	Steps: 3920784
+
+Test set: Average loss: 0.0789, Accuracy: 9772/10000 (98%)
+
+Train Epoch: 18 [20000/60000 (33%)]	Loss: 0.030323	Steps: 4077584
+Train Epoch: 18 [40000/60000 (67%)]	Loss: 0.031098	Steps: 4155984
+
+Test set: Average loss: 0.0817, Accuracy: 9776/10000 (98%)
+
+Train Epoch: 19 [20000/60000 (33%)]	Loss: 0.031304	Steps: 4312784
+Train Epoch: 19 [40000/60000 (67%)]	Loss: 0.033433	Steps: 4391184
+
+Test set: Average loss: 0.0813, Accuracy: 9771/10000 (98%)
+
+Train Epoch: 20 [20000/60000 (33%)]	Loss: 0.028793	Steps: 4547984
+Train Epoch: 20 [40000/60000 (67%)]	Loss: 0.028503	Steps: 4626384
+
+Test set: Average loss: 0.0826, Accuracy: 9780/10000 (98%)
+
+
+Process finished with exit code 0
