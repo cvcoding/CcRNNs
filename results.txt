@@ -1,0 +1,168 @@
+C:\Users\Administrator\AppData\Local\Programs\Python\Python37\python.exe D:/TCN_Code/tnc_mnist/pmnist_test.py
+Namespace(batch_size=64, clip=-1, cuda=True, dropout=0.05, epochs=20, ksize=7, levels=8, log_interval=500, lr=0.002, nhid=25, optim='Adam', permute=True, seed=1111)
+Train Epoch: 1 [32000/60000 (53%)]	Loss: 0.625409	Steps: 392784
+D:/TCN_Code/tnc_mnist/pmnist_test.py:107: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  data, target = Variable(data, volatile=True), Variable(target)
+C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\_reduction.py:46: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+
+Test set: Average loss: 0.3004, Accuracy: 9056/10000 (90%)
+
+Train Epoch: 2 [32000/60000 (53%)]	Loss: 0.261649	Steps: 1128176
+
+Test set: Average loss: 0.2113, Accuracy: 9315/10000 (93%)
+
+Train Epoch: 3 [32000/60000 (53%)]	Loss: 0.206767	Steps: 1863568
+
+Test set: Average loss: 0.1634, Accuracy: 9487/10000 (94%)
+
+Train Epoch: 4 [32000/60000 (53%)]	Loss: 0.170916	Steps: 2598960
+
+Test set: Average loss: 0.1456, Accuracy: 9546/10000 (95%)
+
+Train Epoch: 5 [32000/60000 (53%)]	Loss: 0.148451	Steps: 3334352
+
+Test set: Average loss: 0.1369, Accuracy: 9587/10000 (95%)
+
+Train Epoch: 6 [32000/60000 (53%)]	Loss: 0.133553	Steps: 4069744
+
+Test set: Average loss: 0.1289, Accuracy: 9606/10000 (96%)
+
+Train Epoch: 7 [32000/60000 (53%)]	Loss: 0.119912	Steps: 4805136
+
+Test set: Average loss: 0.1332, Accuracy: 9615/10000 (96%)
+
+Train Epoch: 8 [32000/60000 (53%)]	Loss: 0.113365	Steps: 5540528
+
+Test set: Average loss: 0.1062, Accuracy: 9656/10000 (96%)
+
+Train Epoch: 9 [32000/60000 (53%)]	Loss: 0.105457	Steps: 6275920
+
+Test set: Average loss: 0.1207, Accuracy: 9621/10000 (96%)
+
+Train Epoch: 10 [32000/60000 (53%)]	Loss: 0.095747	Steps: 7011312
+
+Test set: Average loss: 0.1141, Accuracy: 9647/10000 (96%)
+
+Train Epoch: 11 [32000/60000 (53%)]	Loss: 0.074283	Steps: 7746704
+
+Test set: Average loss: 0.0835, Accuracy: 9761/10000 (97%)
+
+Train Epoch: 12 [32000/60000 (53%)]	Loss: 0.061426	Steps: 8482096
+
+Test set: Average loss: 0.0819, Accuracy: 9759/10000 (97%)
+
+Train Epoch: 13 [32000/60000 (53%)]	Loss: 0.058398	Steps: 9217488
+
+Test set: Average loss: 0.0821, Accuracy: 9766/10000 (97%)
+
+Train Epoch: 14 [32000/60000 (53%)]	Loss: 0.054251	Steps: 9952880
+
+Test set: Average loss: 0.0811, Accuracy: 9758/10000 (97%)
+
+Train Epoch: 15 [32000/60000 (53%)]	Loss: 0.051845	Steps: 10688272
+
+Test set: Average loss: 0.0808, Accuracy: 9777/10000 (97%)
+
+Train Epoch: 16 [32000/60000 (53%)]	Loss: 0.049602	Steps: 11423664
+
+Test set: Average loss: 0.0821, Accuracy: 9771/10000 (97%)
+
+Train Epoch: 17 [32000/60000 (53%)]	Loss: 0.047676	Steps: 12159056
+
+Test set: Average loss: 0.0814, Accuracy: 9777/10000 (97%)
+
+Train Epoch: 18 [32000/60000 (53%)]	Loss: 0.045415	Steps: 12894448
+
+Test set: Average loss: 0.0827, Accuracy: 9781/10000 (97%)
+
+Train Epoch: 19 [32000/60000 (53%)]	Loss: 0.044237	Steps: 13629840
+
+Test set: Average loss: 0.0831, Accuracy: 9779/10000 (97%)
+
+Train Epoch: 20 [32000/60000 (53%)]	Loss: 0.041526	Steps: 14365232
+
+Test set: Average loss: 0.0816, Accuracy: 9786/10000 (97%)
+
+
+Process finished with exit code 0
+
+
+
+
+
+
+C:\Users\Administrator\AppData\Local\Programs\Python\Python37\python.exe D:/TCN_Code/TCN-master/TCN-master/TCN/mnist_pixel/pmnist_test.py
+Namespace(batch_size=200, clip=-1, cuda=True, dropout=0.05, epochs=20, ksize=7, levels=8, log_interval=100, lr=0.002, nhid=24, optim='Adam', permute=True, seed=1111)
+Train Epoch: 1 [20000/60000 (33%)]	Loss: 1.289820	Steps: 79184
+Train Epoch: 1 [40000/60000 (67%)]	Loss: 0.514816	Steps: 157584
+D:/TCN_Code/TCN-master/TCN-master/TCN/mnist_pixel/pmnist_test.py:110: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  data, target = Variable(data, volatile=True), Variable(target)
+C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\_reduction.py:46: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+
+Test set: Average loss: 0.3172, Accuracy: 9006/10000 (90%)
+
+Train Epoch: 2 [20000/60000 (33%)]	Loss: 0.337755	Steps: 314384
+Train Epoch: 2 [40000/60000 (67%)]	Loss: 0.287125	Steps: 392784
+
+Test set: Average loss: 0.2452, Accuracy: 9227/10000 (92%)
+
+Train Epoch: 3 [20000/60000 (33%)]	Loss: 0.243719	Steps: 549584
+Train Epoch: 3 [40000/60000 (67%)]	Loss: 0.224099	Steps: 627984
+
+Test set: Average loss: 0.1792, Accuracy: 9420/10000 (94%)
+
+Train Epoch: 4 [20000/60000 (33%)]	Loss: 0.199557	Steps: 784784
+Train Epoch: 4 [40000/60000 (67%)]	Loss: 0.182738	Steps: 863184
+
+Test set: Average loss: 0.1636, Accuracy: 9479/10000 (94%)
+
+Train Epoch: 5 [20000/60000 (33%)]	Loss: 0.170356	Steps: 1019984
+Train Epoch: 5 [40000/60000 (67%)]	Loss: 0.168587	Steps: 1098384
+
+Test set: Average loss: 0.1477, Accuracy: 9546/10000 (95%)
+
+Train Epoch: 6 [20000/60000 (33%)]	Loss: 0.154597	Steps: 1255184
+Train Epoch: 6 [40000/60000 (67%)]	Loss: 0.146742	Steps: 1333584
+
+Test set: Average loss: 0.1400, Accuracy: 9555/10000 (95%)
+
+Train Epoch: 7 [20000/60000 (33%)]	Loss: 0.141116	Steps: 1490384
+Train Epoch: 7 [40000/60000 (67%)]	Loss: 0.134427	Steps: 1568784
+
+Test set: Average loss: 0.1182, Accuracy: 9628/10000 (96%)
+
+Train Epoch: 8 [20000/60000 (33%)]	Loss: 0.127236	Steps: 1725584
+Train Epoch: 8 [40000/60000 (67%)]	Loss: 0.121554	Steps: 1803984
+
+Test set: Average loss: 0.1272, Accuracy: 9615/10000 (96%)
+
+Train Epoch: 9 [20000/60000 (33%)]	Loss: 0.115237	Steps: 1960784
+Train Epoch: 9 [40000/60000 (67%)]	Loss: 0.115593	Steps: 2039184
+
+Test set: Average loss: 0.1255, Accuracy: 9619/10000 (96%)
+
+Train Epoch: 10 [20000/60000 (33%)]	Loss: 0.110597	Steps: 2195984
+Train Epoch: 10 [40000/60000 (67%)]	Loss: 0.108861	Steps: 2274384
+
+Test set: Average loss: 0.1216, Accuracy: 9634/10000 (96%)
+
+Train Epoch: 11 [20000/60000 (33%)]	Loss: 0.095197	Steps: 2431184
+Train Epoch: 11 [40000/60000 (67%)]	Loss: 0.079112	Steps: 2509584
+
+Test set: Average loss: 0.0979, Accuracy: 9701/10000 (97%)
+
+Train Epoch: 12 [20000/60000 (33%)]	Loss: 0.076324	Steps: 2666384
+Train Epoch: 12 [40000/60000 (67%)]	Loss: 0.074813	Steps: 2744784
+
+Test set: Average loss: 0.0947, Accuracy: 9722/10000 (97%)
+
+Train Epoch: 13 [20000/60000 (33%)]	Loss: 0.070052	Steps: 2901584
+Train Epoch: 13 [40000/60000 (67%)]	Loss: 0.066324	Steps: 2979984
+
+Test set: Average loss: 0.0962, Accuracy: 9695/10000 (96%)
+
+Train Epoch: 14 [20000/60000 (33%)]	Loss: 0.066922	Steps: 3136784
+Train Epoch: 14 [40000/60000 (67%)]	Loss: 0.070689	Steps: 3215184
+
