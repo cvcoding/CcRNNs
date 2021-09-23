@@ -13,3 +13,5 @@ term information for the segmented-memory recurrent neural network. Note that in
 of the causal convolutions does not need to cover the whole length of the sequential data, while it is essentially mandatory in
 the conventional temporal convolutional network (TCN). Experimental results in diverse applications demonstrate superiority of
 our method over several competitive counterparts including the temporal convolution network and the RNN variants. 
+
+The Code of CcRNNs for training and testing on different datasets (tasks) are provided in the branches.
